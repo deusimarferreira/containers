@@ -3,6 +3,21 @@
 ## runC
 https://github.com/opencontainers/runc#building
 
+docker export $(docker create busybox) > /tmp/busybox.tar
+
+mkdir ~/myrunccontainer
+mkdir ~/myrunccontainer/rootfs
+tar -C ~/myrunccontainer/rootfs -xf /tmp/busybox.tar
+
+```sh
+cd ~/myrunccontainer/
+
+runc spec
+vim config.json
+
+runc run busybox
+```
+
 ## Docker
 
 Requer root prívilegios para executar ``docker-intall.sh``
