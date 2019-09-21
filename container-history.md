@@ -9,3 +9,12 @@ As versões iniciais do Docker usavam o LXC (Linux Container) como driver para e
 
 Contêineres versus Máquinas Virtuais
 ![Contêineres versus Máquinas Virtuais](https://www.ibm.com/developerworks/br/cloud/library/cl-cloud-orchestration-technologies-trs/vmcontainer.png)
+
+# Reference
+- [Chroot](https://wiki.gentoo.org/wiki/Chroot/pt-br)
+- [Usando o chroot](http://packaging.ubuntu.com/pt-br/html/chroots.html)
+- [chroot (Português)](https://wiki.archlinux.org/index.php/Chroot_(Portugu%C3%AAs))
+- [LXC](https://en.wikipedia.org/wiki/LXC)
+- [Linux containers](https://linuxcontainers.org/)
+- [Container Linux](https://en.wikipedia.org/wiki/Container_Linux)
+- [Open Container Initiative](https://www.opencontainers.org/)
