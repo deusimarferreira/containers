@@ -47,3 +47,4 @@ $ ./scripts/install-rkt.sh
   
   [Rkt Architecture](https://rocket.readthedocs.io/en/stable/Documentation/devel/architecture/)
   [Docs](https://rocket.readthedocs.io/en/stable/Documentation/app-container/)
+  [Roadmap](https://github.com/rkt/rkt/projects)
