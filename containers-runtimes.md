@@ -44,3 +44,6 @@ $ cd rkt
 # Execute o script para realizar a instalação
 $ ./scripts/install-rkt.sh
   ```
+  
+  [Rkt Architecture](https://rocket.readthedocs.io/en/stable/Documentation/devel/architecture/)
+  [Docs](https://rocket.readthedocs.io/en/stable/Documentation/app-container/)
