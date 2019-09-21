@@ -1,6 +1,5 @@
 # Docker Machine
 
-
 Linux
 ```sh
 $ base=https://github.com/docker/machine/releases/download/v0.16.0 &&
@@ -10,3 +9,11 @@ $ base=https://github.com/docker/machine/releases/download/v0.16.0 &&
 ```
 
 [Install Docker Machine](https://docs.docker.com/machine/install-machine/)
+
+## Criando uma nova maquina docker
+
+```bash
+export OCEAN_TOKEN=? # Get on https://cloud.digitalocean.com/account/api/tokens
+
+docker-machine create --driver digitalocean --digitalocean-access-token=$OCEAN_TOKEN demo
+```
