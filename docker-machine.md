@@ -13,7 +13,9 @@ $ base=https://github.com/docker/machine/releases/download/v0.16.0 &&
 ## Criando uma nova maquina docker
 
 ```bash
-export OCEAN_TOKEN=? # Get on https://cloud.digitalocean.com/account/api/tokens
+$ export OCEAN_TOKEN=? # Get on https://cloud.digitalocean.com/account/api/tokens
 
-docker-machine create --driver digitalocean --digitalocean-access-token=$OCEAN_TOKEN demo
+$ docker-machine create --driver digitalocean --digitalocean-access-token=$OCEAN_TOKEN demo
+
+$ docker-machine env demo
 ```
