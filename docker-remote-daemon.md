@@ -12,6 +12,7 @@ $ /usr/bin/dockerd -H 0.0.0.0:2375
 
 ### Opção 2
 ```sh
+# Docker daemon remoto
 $ vim /lib/systemd/system/docker.service
 
 # Change from
