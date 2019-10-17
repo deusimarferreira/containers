@@ -3,11 +3,17 @@
 ## runC
 https://github.com/opencontainers/runc#building
 
+```sh
+# Cria e exporta imagem docker para /tmp/busybox.tar
 docker export $(docker create busybox) > /tmp/busybox.tar
 
+# Cria pastas que serão usadas para executar o runc
 mkdir ~/myrunccontainer
 mkdir ~/myrunccontainer/rootfs
+
+# Descompacta /tmp/busybox.tar
 tar -C ~/myrunccontainer/rootfs -xf /tmp/busybox.tar
+```
 
 ```sh
 cd ~/myrunccontainer/
