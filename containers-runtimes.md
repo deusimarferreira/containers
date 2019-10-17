@@ -50,13 +50,32 @@ runc delete -f busybox
 
 Requer root prívilegios para executar ``docker-intall.sh``
 
-```bash
-# sh  docker-intall.sh
+```sh
+# sh docker-intall.sh
 ```
 
 [Docker Engine Overview](https://docs.docker.com/engine/docker-overview/)
 
 [Docker Engine runc (OCI)](https://blog.docker.com/2016/04/docker-engine-1-11-runc/)
+
+```sh
+# Cria container base Alpine
+docker container create -i -t alpine sh
+
+# Inicia container
+docker container start CONTAINER
+
+# Lista containers
+docker container ls
+
+docker container run -i -t alpine sh
+
+# Run container em background
+docker container run -d alpine ...
+
+# Inspecionar container
+docker container inspect CONTAINER less
+```
 
 ## rkt
 Lançado em 2014 por CoreOS
