@@ -21,7 +21,29 @@ cd ~/myrunccontainer/
 runc spec
 vim config.json
 
+# Executa container
 runc run busybox
+
+# Lista containers
+runc list
+
+# Para container
+runc pause busybox
+runc list
+
+# Run container
+runc resume busybox
+runc list
+
+# Estado
+runc state busybox
+
+# Ajuda
+runc --help # All commands options
+runc delete --help # All options for delete
+
+# Removendo container
+runc delete -f busybox
 ```
 
 ## Docker
