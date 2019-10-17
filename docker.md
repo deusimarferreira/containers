@@ -36,6 +36,15 @@ docker build -t image:tag .
 
 ## Container Networking
 Leia [container-network-model.md](container-network-model.md)
+Leia [CNI](https://github.com/containernetworking/cni)
+
+Rkt Networking
+* Host mode
+* Container mode
+
+```sh
+rkt run --interactive --net=host quay.io/coreos/alpine-sh:latest
+```
 
 ## Container Storage
 ## Docker Compose
