@@ -90,8 +90,33 @@ $ cd rkt
 
 # Execute o script para realizar a instalação
 $ ./scripts/install-rkt.sh
-  ```
+```
   
-  [Rkt Architecture](https://rocket.readthedocs.io/en/stable/Documentation/devel/architecture/)
-  [Docs](https://rocket.readthedocs.io/en/stable/Documentation/app-container/)
-  [Roadmap](https://github.com/rkt/rkt/projects)
+[Rkt Architecture](https://rocket.readthedocs.io/en/stable/Documentation/devel/architecture/)
+[Docs](https://rocket.readthedocs.io/en/stable/Documentation/app-container/)
+[Roadmap](https://github.com/rkt/rkt/projects)
+
+```sh
+rkt run --interactive quay.io/coreos/alpine-sh
+
+rkt run --insecure-options=image coreos.com/etcd:v2.0.0
+
+# Lista os PODs existentes
+rkt list
+
+# Para pod
+rkt stop UUID
+
+# Remove
+rkt rm UUID # É possível remover pod passando apenas a inicial do UUID, mas cuidado, ele removerá todas as combinações
+
+# Pull image from docker
+rkt --insecure-options=image run docker://nginx
+
+rkt status UUID
+
+systemd-run --slice=machine rkt run docker://nginx
+
+systemctl status run-rac9a40c645b04f1fab19397640d6fe51.service
+systemctl stop run-rac9a40c645b04f1fab19397640d6fe51.service
+```
