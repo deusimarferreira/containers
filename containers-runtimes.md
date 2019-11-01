@@ -120,3 +120,7 @@ systemd-run --slice=machine rkt run docker://nginx
 systemctl status run-rac9a40c645b04f1fab19397640d6fe51.service
 systemctl stop run-rac9a40c645b04f1fab19397640d6fe51.service
 ```
+
+## cri-o
+* https://cri-o.io/
+* https://www.infoq.com/br/news/2019/09/cri-o-kubernetes-runtime/
