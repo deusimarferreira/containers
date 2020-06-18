@@ -23,3 +23,4 @@ O conteúdo deste respositório estar organizado seguindo uma linha de aprendiza
 
 # Referências
 * [Docker docs](https://docs.docker.com/)
+* [IBM Developer](https://developer.ibm.com/br/articles/cl-cloud-orchestration-technologies-trs)
