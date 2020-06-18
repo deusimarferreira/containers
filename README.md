@@ -22,7 +22,7 @@ O conteúdo deste respositório estar organizado seguindo uma linha de aprendiza
 * [Container Network Model]()
 
 # Contribuições
-Para contribuir com esse projeto basta realizar o fork, realizar suas alterações e depois solicitar pull request.
+Para contribuir com esse projeto façã um ``Fork``, realize suas alterações e depois solicite um ``Pull request``.
 
 # Referências
 * [Docker docs](https://docs.docker.com/)
