@@ -7,10 +7,7 @@ Em 6 de agosto de 2008 nasce o LXC (Linux Container) método de virtualização 
 
 As versões iniciais do Docker usavam o LXC (Linux Container) como driver para execução de contêiner, sendo colocado como opcional na v0.9 e na versão v1.10 teve seu suporte encerrando definitivamente.
 
-Contêineres versus Máquinas Virtuais
-![Contêineres versus Máquinas Virtuais](https://developer.ibm.com/developer/articles/cl-cloud-orchestration-technologies-trs/nl/br/images/vmcontainer.png)
-
-# Reference
+# Referências
 - [Chroot](https://wiki.gentoo.org/wiki/Chroot/pt-br)
 - [Usando o chroot](http://packaging.ubuntu.com/pt-br/html/chroots.html)
 - [chroot (Português)](https://wiki.archlinux.org/index.php/Chroot_(Portugu%C3%AAs))
