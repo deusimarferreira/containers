@@ -21,6 +21,9 @@ O conteúdo deste respositório estar organizado seguindo uma linha de aprendiza
   * [cri-o](./cri-o.md)
 * [Container Network Model]()
 
+# Contribuições
+Para contribuir com esse projeto basta realizar o fork, realizar suas alterações e depois solicitar pull request.
+
 # Referências
 * [Docker docs](https://docs.docker.com/)
 * [IBM Developer](https://developer.ibm.com/br/articles/cl-cloud-orchestration-technologies-trs)
