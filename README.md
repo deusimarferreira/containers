@@ -1,7 +1,25 @@
-# Docker Install Shell
+# Containers
+Seja bem vindo, aqui você encontrará diversas informações relacioandas ao universo de containers.
 
-Require root privileges to execute ``docker-intall.sh``
+O conteúdo deste respositório estar organizado seguindo uma linha de aprendizado que vai do básico ao avançado.
+* [Histórico](./container-history.md)
+* [Container vs Máquina Virutal](./containers-vs-virtual-machine.md)
+* [Runtimes](./containers-runtimes.md)
+  * [runC](./run-c.md)
+  * [Docker](./docker.md)
+    * [Instalação]()
+    * [Pull/Run]()
+    * [Image/Push]()
+    * [Registry]()
+    * [Storage]()
+    * [Network]()
+    * [Docker Machine]()
+    * [Remote Daemon]()
+    * [Docker API]()
+    * [Docker Compose]()
+  * [rkt](./rkt.md)
+  * [cri-o](./cri-o.md)
+* [Container Network Model]()
 
-```bash
-# sh  docker-intall.sh
-```
+# Referências
+* [Docker docs](https://docs.docker.com/)
