@@ -24,3 +24,5 @@ Já no docker a solução apresentada acima não foi suficiente, para isso será
 * [Idenitifcar WIndows Profile](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.3)
 * [Split VPN in WSL (Windows Subsystem for Linux)](https://askubuntu.com/questions/1228568/split-vpn-in-wsl-windows-subsystem-for-linux)
 * [WSL Config](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#wslconfig)
+* [Fixes problemas com docker login](https://stackoverflow.com/a/52251706/10788569)
+* [Remote docker connect](https://www.docker.com/blog/how-to-deploy-on-remote-docker-hosts-with-docker-compose/)
